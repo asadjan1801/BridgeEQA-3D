@@ -1,0 +1,5 @@
+Base model: google/gemma-4-31B-it (Hugging Face)
+Revision (refs/main at the time of the experiments): 145dc2508c480a64b47242f160d286cff94a2343
+
+Pin it when downloading, e.g.:
+  huggingface-cli download google/gemma-4-31B-it --revision 145dc2508c480a64b47242f160d286cff94a2343

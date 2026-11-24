@@ -1,0 +1,159 @@
+{
+  "n_scenes": 3220,
+  "n_qa_total": 63079,
+  "qa_with_rating_frac": 0.8870781084037477,
+  "qa_with_cite_frac": 0.8904072670777914,
+  "images_per_scene": {
+    "count": 3220.0,
+    "mean": 21.598447204968945,
+    "std": 12.590052043149605,
+    "min": 1.0,
+    "25%": 12.0,
+    "50%": 18.0,
+    "75%": 27.0,
+    "max": 113.0
+  },
+  "qa_per_scene": {
+    "count": 3220.0,
+    "mean": 19.589751552795033,
+    "std": 3.162428049038265,
+    "min": 0.0,
+    "25%": 20.0,
+    "50%": 20.0,
+    "75%": 20.0,
+    "max": 22.0
+  },
+  "elements_per_scene": {
+    "count": 3220.0,
+    "mean": 8.691304347826087,
+    "std": 4.043993721502592,
+    "min": 0.0,
+    "25%": 6.0,
+    "50%": 8.0,
+    "75%": 10.0,
+    "max": 57.0
+  },
+  "components_per_scene": {
+    "count": 3220.0,
+    "mean": 4.77639751552795,
+    "std": 1.656696448494478,
+    "min": 2.0,
+    "25%": 4.0,
+    "50%": 4.0,
+    "75%": 5.0,
+    "max": 11.0
+  },
+  "agency_counts": {
+    "State": 1619,
+    "Town/Township": 1493,
+    "City/Municipal": 79,
+    "Village": 23,
+    "Railroad": 5,
+    "Private": 1
+  },
+  "year_counts": {
+    "2024": 1433,
+    "2023": 1131,
+    "2025": 422,
+    "2022": 172,
+    "2021": 62
+  },
+  "component_means": {
+    "count": {
+      "Approach": 9,
+      "Channel": 3171,
+      "Culverts": 946,
+      "Deck": 4566,
+      "Substructure": 2533,
+      "Superstructure": 2537
+    },
+    "mean": {
+      "Approach": 7.778,
+      "Channel": 6.79,
+      "Culverts": 6.441,
+      "Deck": 6.802,
+      "Substructure": 6.659,
+      "Superstructure": 6.813
+    },
+    "median": {
+      "Approach": 8.0,
+      "Channel": 7.0,
+      "Culverts": 6.0,
+      "Deck": 7.0,
+      "Substructure": 7.0,
+      "Superstructure": 7.0
+    },
+    "std": {
+      "Approach": 0.667,
+      "Channel": 0.998,
+      "Culverts": 1.117,
+      "Deck": 1.135,
+      "Substructure": 0.916,
+      "Superstructure": 1.019
+    }
+  },
+  "element_means_top15": {
+    "count": {
+      "Reinforced Concrete Abutment": 2363,
+      "Reinforced Concrete Wing/Retaining Wall": 2170,
+      "Metal Bridge Railing": 1667,
+      "Concrete Fascia": 1587,
+      "Wearing Surfaces": 1370,
+      "Reinforced Concrete Deck": 1342,
+      "Steel Open Girder/Beam": 1310,
+      "Cracking (RC and Other)": 1080,
+      "Efflorescence/Rust Staining": 833,
+      "Delamination/Spall/Patched Area": 624,
+      "Corrosion": 598,
+      "Movable Bearing": 568,
+      "RC Slab": 549,
+      "Steel Protective Coating": 524,
+      "Fixed Bearing": 480
+    },
+    "mean": {
+      "Reinforced Concrete Abutment": 1.683,
+      "Reinforced Concrete Wing/Retaining Wall": 1.647,
+      "Metal Bridge Railing": 1.449,
+      "Concrete Fascia": 1.58,
+      "Wearing Surfaces": 1.379,
+      "Reinforced Concrete Deck": 1.725,
+      "Steel Open Girder/Beam": 1.755,
+      "Cracking (RC and Other)": 2.293,
+      "Efflorescence/Rust Staining": 2.24,
+      "Delamination/Spall/Patched Area": 2.955,
+      "Corrosion": 2.659,
+      "Movable Bearing": 1.981,
+      "RC Slab": 1.587,
+      "Steel Protective Coating": 2.282,
+      "Fixed Bearing": 1.804
+    },
+    "median": {
+      "Reinforced Concrete Abutment": 1.0,
+      "Reinforced Concrete Wing/Retaining Wall": 1.0,
+      "Metal Bridge Railing": 1.0,
+      "Concrete Fascia": 1.0,
+      "Wearing Surfaces": 1.0,
+      "Reinforced Concrete Deck": 2.0,
+      "Steel Open Girder/Beam": 2.0,
+      "Cracking (RC and Other)": 2.0,
+      "Efflorescence/Rust Staining": 2.0,
+      "Delamination/Spall/Patched Area": 3.0,
+      "Corrosion": 2.0,
+      "Movable Bearing": 2.0,
+      "RC Slab": 1.0,
+      "Steel Protective Coating": 2.0,
+      "Fixed Bearing": 2.0
+    }
+  },
+  "qa_rating_hist": {
+    "1": 55,
+    "2": 160,
+    "3": 359,
+    "4": 1446,
+    "5": 5573,
+    "6": 17238,
+    "7": 18082,
+    "8": 13005,
+    "9": 38
+  }
+}

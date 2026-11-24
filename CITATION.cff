@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "BridgeEQA-3D: Context-Aware Scene Graphs and an Open Vision-Language Model for Bridge Inspection (code)"
+authors:
+  - family-names: "Rahman"
+    given-names: "Asad Ur"
+  - family-names: "Varghese"
+    given-names: "Subin"
+  - family-names: "Hoskere"
+    given-names: "Vedhus"
+repository-code: "https://github.com/asadjan1801/BridgeEQA-3D"
+license: MIT
+keywords:
+  - bridge inspection
+  - scene graph
+  - vision-language model
+  - embodied agent
+  - fine-tuning
+  - condition rating
+references:
+  - type: conference-paper
+    title: "BridgeEQA: Virtual embodied agents for real bridge inspections"
+    authors:
+      - family-names: "Varghese"
+        given-names: "Subin"
+      - family-names: "Gao"
+        given-names: "J."
+      - family-names: "Rahman"
+        given-names: "Asad Ur"
+      - family-names: "Hoskere"
+        given-names: "Vedhus"
+    collection-title: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+    year: 2026
+    start: 8163
+    end: 8173

@@ -1,0 +1,49 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+.ruff_cache/
+
+# Job logs (may contain hostnames, paths, or request URLs with credentials)
+logs/
+*.log
+*.err
+nohup.out
+
+# Run outputs, caches, and data (released separately, not in git)
+*.db
+*.db.bak*
+*_cached_output/
+*_cached_output_*/
+graph_outputs*/
+data_v*/
+checkpoints/
+*.jsonl
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.pdf
+*.glb
+*.ply
+.hf_cache/
+wandb/
+
+# OS / editor
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.vscode/
+.idea/
